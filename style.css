@@ -9,7 +9,7 @@ body {
 
 .header-container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: #60e1e0;
     background-image: url('img/back2.png');
     background-repeat: no-repeat;
@@ -189,6 +189,7 @@ a:hover {
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
+    text-decoration: none;
 }
 
 .card {
@@ -243,6 +244,7 @@ a:hover {
     letter-spacing: 4px;
     margin: 0;
     transition: 0.5s ease-in-out;
+    display: flex;
 }
 
 .card-wrapper p {
