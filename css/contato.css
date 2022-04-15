@@ -18,16 +18,67 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     box-sizing: border-box;
-    padding: 0 112px;
+    padding: 20px;
     position: relative;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+form input, form textarea {
+    outline: unset;
+    padding: 20px;
+    min-width: 200px;
+    max-width: 500px;
+    max-height: 200px;
+    border: 1px solid #117391;
+    border-radius: 20px;
+}
+
+form input:focus, form textarea:focus {
+    background-color: #fafafa;
 }
 
 h1 {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+
+form input[type=submit] {
+    background-color: #1594a796;
+    color: white;
+    cursor: pointer;
+    width: 350px;
+    transition: .4s ease-in-out 0s;
+    font-size: 17px;
+}
+
+form input[type=submit]:hover {
+    background-color: #5fb9f5;
+    color: white;
+    cursor: pointer;
+    width: 350px;
+}
+
+div i {
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+form label {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 h2{
