@@ -193,16 +193,11 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 40px;
+    transition: .3s ease-in-out;
 }
 
 .menu-items ul li a:hover {
-    margin: 20px 10px;
     color: #60e1e0;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 43px;
-    transition: .3s ease-in-out;
 }
 
 #toggle:checked + .checkbox .trace:nth-child(1){
@@ -307,13 +302,13 @@ a:hover {
 }
    
 .rede-items ul li:hover:nth-child(1) a{
-    background: #3b5999;
+    background: #0e76a8;
 }
 .rede-items ul li:hover:nth-child(1) a:before{
-    background: #2e4a86;
+    background: #1d6485;
 }
 .rede-items ul li:hover:nth-child(1) a:after{
-    background: #4a96ad;
+    background: #198ec4;
 }
    
 
@@ -336,4 +331,23 @@ a:hover {
 }
 .rede-items ul li:hover:nth-child(3) a:after{
     background: linear-gradient(#400080, transparent), linear-gradient(200deg,#d047d1, #ff0000,#ffff00);
+}
+
+.rede-items ul li:hover:nth-child(4) a{
+    background: #565657;
+}
+.rede-items ul li:hover:nth-child(4) a:before{
+    background: #636363;
+}
+.rede-items ul li:hover:nth-child(4) a:after{
+    background: #727272;
+}
+
+@media (max-width: 575.98px) {
+    .rede-items {
+        visibility: hidden;
+    }
+    div p {
+        visibility: hidden;
+    }
 }
