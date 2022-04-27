@@ -330,24 +330,24 @@ a:hover {
     background: linear-gradient(#400080, transparent), linear-gradient(200deg,#d047d1, #ff0000,#ffff00);
 }
 .rede-items ul li:hover:nth-child(3) a:after{
-    background: linear-gradient(#400080, transparent), linear-gradient(200deg,#d047d1, #ff0000,#ffff00);
+    background: linear-gradient(#ffff00, transparent), linear-gradient(200deg,#ff0000, #ffff00,#ffff00);
 }
 
 .rede-items ul li:hover:nth-child(4) a{
-    background: #565657;
+    background: #303031;
 }
 .rede-items ul li:hover:nth-child(4) a:before{
-    background: #636363;
+    background: #353434;
 }
 .rede-items ul li:hover:nth-child(4) a:after{
-    background: #727272;
+    background: #4e4e4e;
 }
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .rede-items {
         visibility: hidden;
     }
     div p {
         visibility: hidden;
     }
-}
+} */

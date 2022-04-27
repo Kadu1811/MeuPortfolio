@@ -142,16 +142,11 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 40px;
+    transition: .3s ease-in-out;
 }
 
 .menu-items ul li a:hover {
-    margin: 20px 10px;
     color: #60e1e0;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 43px;
-    transition: .3s ease-in-out;
 }
 
 #toggle:checked + .checkbox .trace:nth-child(1){
