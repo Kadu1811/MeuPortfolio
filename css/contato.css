@@ -301,6 +301,7 @@ a:hover {
        box-shadow: -50px 50px 50px rgb(0,0,0,0.5);
 }
    
+
 .rede-items ul li:hover:nth-child(1) a{
     background: #0e76a8;
 }
@@ -310,18 +311,18 @@ a:hover {
 .rede-items ul li:hover:nth-child(1) a:after{
     background: #198ec4;
 }
-   
+
 
 .rede-items ul li:hover:nth-child(2) a{
-    background: #1ed86c;
+    background: #2c2f35;
 }
 .rede-items ul li:hover:nth-child(2) a:before{
-    background: #47b374;
+    background: #36383a;
 }
 .rede-items ul li:hover:nth-child(2) a:after{
-    background: #49c578;
+    background: #3c3e3f;
 }
-   
+
 
 .rede-items ul li:hover:nth-child(3) a{
     background: linear-gradient(#400080, transparent), linear-gradient(200deg,#d047d1, #ff0000,#ffff00);
@@ -333,21 +334,23 @@ a:hover {
     background: linear-gradient(#ffff00, transparent), linear-gradient(200deg,#ff0000, #ffff00,#ffff00);
 }
 
+
 .rede-items ul li:hover:nth-child(4) a{
-    background: #303031;
+    background: #1ed86c;
 }
 .rede-items ul li:hover:nth-child(4) a:before{
-    background: #353434;
+    background: #47b374;
 }
 .rede-items ul li:hover:nth-child(4) a:after{
-    background: #4e4e4e;
+    background: #67c28a;
 }
 
-/* @media (max-width: 575.98px) {
+
+@media (max-width: 575.98px) {
     .rede-items {
         visibility: hidden;
     }
     div p {
         visibility: hidden;
     }
-} */
+}
