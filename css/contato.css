@@ -345,6 +345,7 @@ a:hover {
     background: #67c28a;
 }
 
+/* Responsiveness */
 
 @media (max-width: 575.98px) {
     .rede-items {
