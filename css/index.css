@@ -235,6 +235,22 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+.pic4 {
+    background-color: #60e1e0;
+    background-image: url('../img/gatotry.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic5 {
+    background-color: #60e1e0;
+    background-image: url('../img/gatogerente.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card-text {
     width: 40%;
     letter-spacing: 1px;
